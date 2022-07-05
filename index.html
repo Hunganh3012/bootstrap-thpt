@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Noto+Serif:wght@700&family=Roboto+Slab:wght@700&family=Roboto:ital,wght@0,400;0,500;0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./asset/style.css">
+    <title>THPT Bootstrap</title>
+</head>
+<body>
+    <header>
+        <div class="navbar container">
+            <div class="header-left d-flex  align-items-center mt-4">
+                <a href=""><img src="./asset/images/logo_cdktNTT 1.png" alt=""></a>
+                <div class="header-name ml-2">
+                    <span class="header-name-vn">CAO ĐẲNG KỸ THUẬT NGUYỄN TRƯỜNG TỘ</span>
+                    <span class="d-block text-center header-name-english">NGUYEN TRUONG TO TECHNICAL COLLEGE</span>
+                </div>
+            </div>
+            <div class="header-search border rounded-pill position-relative">
+                <input type="text" placeholder="Tìm kiếm" class="header-input border-0 py-1 mx-3 ">
+                <a href="" class="header-search-link position-absolute ">
+                    <img src="./asset/images/search-icon.png" alt="" class=" header-icon-search">
+                </a>
+            </div>
+        </div>
+        <div class="header-nav text-center d-flex -align-items-center mt-3">
+            <div class="container d-flex align-items-center">
+                <div class="row">
+                    <div class="col-md-12">
+                        <nav class="navbar navbar-expand p-0">
+                            <a href="" class="nav-icon">
+                                <i class="fa-solid fa-house"></i>
+                            </a>
+            
+                            <div class="navbar-collapse">
+                                <ul class="navbar-nav nav-list">
+                                    <li class="nav-item mr-5">
+                                        <a href="" class="nav-link text-uppercase">Giới thiệu</a>
+                                    </li>
+                                    <li class="nav-item mr-5">
+                                        <a href="" class="nav-link text-uppercase">Tin tức</a>
+                                    </li>
+                                    <li class="nav-item mr-5">
+                                        <a href="" class="nav-link text-uppercase">Tuyển sinh</a>
+                                    </li>
+                                    <li class="nav-item mr-5">
+                                        <a href="" class="nav-link text-uppercase">Khoa-đơn vị</a>
+                                    </li>
+                                    <li class="nav-item mr-5">
+                                        <a href="" class="nav-link text-uppercase">Nghiên cứu khoa học</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="" class="nav-link text-uppercase">Hợp tác quốc tế</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="slider">
+        <div class="slides">
+          <!--radio buttons start-->
+          <input type="radio" name="radio-btn" id="radio1">
+          <input type="radio" name="radio-btn" id="radio2">
+          <input type="radio" name="radio-btn" id="radio3">
+          <input type="radio" name="radio-btn" id="radio4">
+          <!--radio buttons end-->
+          <!--slide images start-->
+          <div class="slide first">
+            <img src="./asset/images/background-slider 5.png" alt="">
+          </div>
+          <div class="slide">
+            <img src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="">
+          </div>
+          <div class="slide">
+            <img src="https://images.unsplash.com/photo-1525921429624-479b6a26d84d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="">
+          </div>
+          <div class="slide">
+            <img src="https://images.unsplash.com/photo-1610159661596-8e777a72f6af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="">
+          </div>
+          <!--slide images end-->
+          <!--automatic navigation start-->
+          <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+          </div>
+          <!--automatic navigation end-->
+        </div>
+        <!--manual navigation start-->
+        <div class="navigation-manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+          <label for="radio4" class="manual-btn"></label>
+        </div>
+        <!--manual navigation end-->
+    </div>
+    <div class="noti container ">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="noti-left">
+                    <a href="" class="text-decoration-none">
+                        <span class="noti-title">Thông báo</span>
+                    </a>
+                    <div class="noti-desc">
+                        <div class="noti-item noti-item1">
+                            <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="">
+                            <div class="noti-item-content">
+                                <div class="noti-item-time">
+                                    <i class="fa-solid fa-clock  noti-item-time-icon" ></i>
+                                        22/3/2021   
+                                </div>
+                                <a href="" class="noti-text text-decoration-none" style="color: #ffffff;"><span >Cơ hội nhận học bổng du học Mỹ 120.000 USD tại CSB và SJU</span></a>
+                           </div>
+                        </div>
+                        <div class="noti-item noti-item2">
+                            <img src="https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="">
+                            <div class="noti-item-content">
+                                <div class="noti-item-time">
+                                    <i class="fa-solid fa-clock  noti-item-time-icon" ></i>
+                                        22/3/2021   
+                                </div>
+                                <a href=""  class="noti-text2 text-decoration-none" style="color: #ffffff;"><span>Cơ hội nhận học bổng du học Mỹ 120.000 USD tại CSB và SJU</span></a>
+                           </div>
+                        </div>
+                        <div class="noti-item noti-item3">
+                            <img src="https://images.unsplash.com/photo-1521587760476-6c12a4b040da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="">
+                            <div class="noti-item-content">
+                                <div class="noti-item-time">
+                                    <i class="fa-solid fa-clock  noti-item-time-icon" ></i>
+                                        22/3/2021   
+                                </div>
+                                <a href=""class="noti-text3 text-decoration-none" style="color: #ffffff;">
+                                    <span >Cơ hội nhận học bổng du học Mỹ 120.000 USD tại CSB và SJU</span>
+                                </a>
+                           </div>
+                        </div>
+                       
+                    </div>
+                    <div class="noti-left-footer d-flex mt-4 row">
+                        <div class="noti-left-item noti-left-item1 col-md-6 mb-4  d-flex">
+                            <img src="https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="" class="noti-left-img">
+                            <div class="noti-left-content">
+                                <a href="" class="text-decoration-none">Giáo dục New Zealand thuộc top đầu thế giới về phát triển bền vững</a>
+                            </div>
+                        </div>
+                        <div class="noti-left-item noti-left-item2 col-md-6 mb-4 d-flex">
+                            <img src="https://images.unsplash.com/photo-1503676382389-4809596d5290?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8c3R1ZGVudHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="" class="noti-left-img">
+                            <div class="noti-left-content">
+                                <a href="" class="text-decoration-none">Giáo dục New Zealand hướng đến tương lai như thế nào?</a>
+                            </div>
+                        </div>
+                        <div class="noti-left-item  noti-left-item3 col-md-6 d-flex">
+                            <img src="https://images.unsplash.com/photo-1620459134634-867369354df9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="" class="noti-left-img">
+                            <div class="noti-left-content">
+                                <a href="" class="text-decoration-none">Nhận bằng thạc sĩ trong một năm tại Università Cattolica, Italy</a>
+                            </div>
+                        </div>
+                        <div class="noti-left-item col-md-6 d-flex">
+                            <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="" class="noti-left-img">
+                            <div class="noti-left-content">
+                                <a href="">Sinh viên Mỹ phải trả hơn 58.000 USD để học trực tuyến</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="noti-right reveal">
+                    <a href="" class="text-decoration-none">
+                        <span class="noti-title">Thông báo</span>
+        
+                    </a>
+                    <div class="noti-list">
+                        <div class="noti-right-item">
+                            <div class="noti-right-content">
+                                <div class="noti-right-time">
+                                    <i class="fa-solid fa-clock  noti-item-time-icon" ></i>
+                                        22/3/2021   
+                                </div>
+                                <a href="">
+                                    <span class="noti-right-text">Giáo dục New Zealand thuộc top đầu thế giới về phát triển bền vững</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="noti-right-item">
+                            <div class="noti-right-content">
+                                <div class="noti-right-time">
+                                    <i class="fa-solid fa-clock  noti-item-time-icon" ></i>
+                                        22/3/2021   
+                                </div>
+                                <a href="">
+                                    <span class="noti-right-text"> Sinh viên Mỹ phải trả hơn 58.000 USD để học trực tuyến Giáo dục New Zealand thuộc top đầu thế giới về phát triển bền vững</span>
+        
+                                </a>
+                            </div>
+                        </div>
+                        <div class="noti-right-item">
+                            <div class="noti-right-content">
+                                <div class="noti-right-time">
+                                    <i class="fa-solid fa-clock  noti-item-time-icon" ></i>
+                                        22/3/2021   
+                                </div>
+                                <a href="">
+                                    <span class="noti-right-text"> Sinh viên Mỹ phải trả hơn 58.000 USD để học trực tuyến Giáo dục New Zealand thuộc top đầu thế giới về phát triển bền vững</span>
+        
+                                </a>
+                            </div>
+                        </div>
+                        <div class="noti-right-item">
+                            <div class="noti-right-content">
+                                <div class="noti-right-time">
+                                    <i class="fa-solid fa-clock  noti-item-time-icon" ></i>
+                                        22/3/2021   
+                                </div>
+                                <a href="">
+                                    <span class="noti-right-text"> Sinh viên Mỹ phải trả hơn 58.000 USD để học trực tuyến Giáo dục New Zealand thuộc top đầu thế giới về phát triển bền vững</span>
+        
+                                </a>
+                            </div>
+                        </div>
+                        <div class="noti-right-item">
+                            <div class="noti-right-content">
+                                <div class="noti-right-time">
+                                    <i class="fa-solid fa-clock  noti-item-time-icon" ></i>
+                                        22/3/2021   
+                                </div>
+                                <a href="">
+                                    <span class="noti-right-text">Giáo dục New Zealand thuộc top đầu thế giới về phát triển bền vững</span>
+        
+                                </a>
+                            </div>
+                        </div>
+                        <div class="noti-right-item">
+                            <div class="noti-right-content">
+                                <div class="noti-right-time">
+                                    <i class="fa-solid fa-clock  noti-item-time-icon" ></i>
+                                        22/3/2021   
+                                </div>
+                                    <a href="">
+                                        <span class="noti-right-text">Giáo dục New Zealand thuộc top đầu thế giới về phát triển bền vững Sinh viên Mỹ phải trả hơn 58.000 USD để học trực tuyến</span>
+        
+                                    </a>
+                            </div>
+                        </div>
+                        <div class="noti-right-item">
+                            <div class="noti-right-content">
+                                <div class="noti-right-time">
+                                    <i class="fa-solid fa-clock  noti-item-time-icon" ></i>
+                                        22/3/2021   
+                                </div>
+                                <a href="">
+                                    <span class="noti-right-text">Giáo dục New Zealand thuộc top đầu thế giới về phát triển bền vững</span>
+        
+                                </a>
+                            </div>
+                        </div>
+                        <div class="noti-right-item">
+                            <div class="noti-right-content">
+                                <div class="noti-right-time">
+                                    <i class="fa-solid fa-clock  noti-item-time-icon" ></i>
+                                        22/3/2021   
+                                </div>
+                                <a href="">
+                                    <span class="noti-right-text">Giáo dục New Zealand thuộc top đầu thế giới về phát triển bền vững</span>
+        
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="option container mt-5 ">
+        <div class="row">
+            <div class="option-left col-lg-6" >
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="option-highlight   mb-3  pt-5">
+                            <a href="">
+                                <i class="fa-solid fa-angle-right option-angle-right"></i>
+                                GIỚI THIỆU TRƯỜNG
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="option-highlight  mb-3 pt-5">
+                            <a href="">
+                                <i class="fa-solid fa-angle-right option-angle-right"></i>
+                                VÌ SAO CHỌN TRƯỜNG
+                            </a>                
+                        </div>
+                    </div>
+                    <div class="col-md-6 ">
+                        <div class="option-highlight mb-3 pt-5">
+                            <a href="">
+                                <i class="fa-solid fa-angle-right option-angle-right"></i>
+                                CƠ SỞ VẬT CHẤT
+                            </a>                
+                        </div>
+                    </div>
+                    <div class="col-md 6">
+                        <div class="option-highlight mb-3 pt-5">
+                            <a href="">
+                                <i class="fa-solid fa-angle-right option-angle-right"></i>
+                                HƯỚNG NGHIỆP
+                            </a>                
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="option-right col-lg-6" >
+                <div class="row">
+                    
+                    <div class="col-md-4 mb-3">
+                        <div class="option-choose ">
+                            <a href="">
+                                <i class="fa-solid fa-graduation-cap option-choose-icon"></i>
+                                ĐẠI HỌC CHÍNH QUY
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="option-choose ">
+                            <a href="">
+                                <i class="fa-solid fa-graduation-cap option-choose-icon"></i>
+                                ĐẠI HỌC CHÍNH QUY
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="option-choose ">
+                            <a href="">
+                                <i class="fa-solid fa-graduation-cap option-choose-icon"></i>
+                                ĐẠI HỌC CHÍNH QUY
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="option-choose ">
+                            <a href="">
+                                <i class="fa-solid fa-graduation-cap option-choose-icon"></i>
+                                ĐẠI HỌC CHÍNH QUY
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="option-choose ">
+                            <a href="">
+                                <i class="fa-solid fa-graduation-cap option-choose-icon"></i>
+                                ĐẠI HỌC CHÍNH QUY
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="option-choose ">
+                            <a href="">
+                                <i class="fa-solid fa-graduation-cap option-choose-icon"></i>
+                                ĐẠI HỌC CHÍNH QUY
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+
+
+      
+    
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="./asset/main.js"></script>
+</body>
+</html>
